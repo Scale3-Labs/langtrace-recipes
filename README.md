@@ -1,8 +1,12 @@
+# Welcome to LangTrace Recipes
+
+### This repository covers end-to-end examples of the various integrations with Langtrace.
+
 ## Integrations
 
 
 
-| Name| Type | 
+| Name| Category | 
 | ------------- |-------------| 
 | [Anthropic](/integrations/language-model/anthropic)| Language Model | 
 | [Cohere](/integrations/language-model/cohere)    | Language Model      |   
@@ -12,7 +16,7 @@
 | [LlamaIndex](/integrations/llm-framework/llamaindex) |Llm Framework      |  
 | [CrewAi](/integrations/llm-framework/crewai) | Llm Framework      |  
 | [Groq](/integrations/tools/groq) | Tools     |  Tools
-| [Langchain](/integrations/tools/langgraph) | Tools      |  
+| [Langgraph](/integrations/tools/langgraph) | Tools      |  
 | [Perplexity](/integrations/tools/perplexity) | Tools      | 
 | [Qdrant](/integrations/vector-db/qdrant) | Vector DB      |   
 | [Weaviate](/integrations/vector-db/weaviate) | Vector DB      |   
