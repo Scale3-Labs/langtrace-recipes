@@ -17,7 +17,7 @@
 | [Qdrant](/integrations/vector-db/qdrant) | Vector DB      |   
 | [Weaviate](/integrations/vector-db/weaviate) | Vector DB      |   
 | [Chromadb](/integrations/vector-db/chromadb) | Vector DB      |   
-| [Djangi](/integrations/web-framework/django) | Web Framework      |   
+| [Django](/integrations/web-framework/django) | Web Framework      |   
 | [NextJs](/integrations/web-framework/nextjs) | Web Framework      |   
 | [Flask](/integrations/web-framework/flask) | Web Framework      |   
 | [FastApi](/integrations/web-framework/fastapi) | Web Framework     |   
