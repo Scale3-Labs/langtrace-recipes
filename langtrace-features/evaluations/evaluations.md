@@ -2,6 +2,8 @@
 
 Langtrace allows you run evaluations on annotated datasets as well as your own datasets and get insights on the performance of your application.
 
+This playbook demonstrates how to run Evaluations on Langtrace.
+
 ### 1. Install LangTrace and Inspect AI
 
 ```python
@@ -20,7 +22,8 @@ export LANGTRACE_API_HOST=<your-langtrace-instance-url>
 ```
 
 ### 2. Create a dataset and copy the dataset ID
-**Note **: To learn how to work with datasets on check out our [datasets playbook](../datasets/datasets.md)
+
+**Note**: To learn how to work with datasets on check out our [datasets playbook](../datasets/datasets.md)
 
 If you have not already done so create a dataset and add some data.
 

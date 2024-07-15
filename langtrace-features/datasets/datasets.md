@@ -2,6 +2,8 @@
 
 Datasets are crucial for evaluations. To run evaluations in Langtrace, you must first create a dataset.
 
+This playbook demonstrates how to create Datasets and the different ways to to add data to datasets on Langtrace.
+
 ### 1. Login into Langtrace.ai and create a dataset
 
 ![dataset](../assets/create_dataset.png)
@@ -18,7 +20,7 @@ You can then select which traces you would like to add to your dataset. Click th
 
 Langtrace allows you to manually input data into your dataset.
 
-Simply head over to your desired dataset. Click create data and fill in the form.
+Simply head over to your desired dataset. Click the create data button  and fill in the form.
 
 ![dataset](../assets/manually_add_data.gif)
 
