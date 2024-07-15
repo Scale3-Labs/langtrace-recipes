@@ -21,5 +21,5 @@ Langtrace allows you to manually input data into your dataset.
 
 Simply head over to your desired dataset. Click create data and fill in the form.
 
-![dataset](../assets/manually_add_data.gif)
+![dataset](../assets/manually_add.gif)
 
