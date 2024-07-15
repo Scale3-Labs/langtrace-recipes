@@ -12,7 +12,7 @@ If you have previosuly captured Traces with Langtrace then go to the annotations
 
 You can then select which traces you would like to add to your dataset. Click the add to dataset button and choose the desired dataset you would like to add to.
 
-![dataset](../assets/add_traces_dataset.gif)
+![dataset](../assets/add_traces_to_dataset.gif)
 
 ### 3. Manually add data to your datset
 
