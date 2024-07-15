@@ -1,6 +1,6 @@
 ## Working with Datasets on Langtrace
 
-Datasets are the backbone of evuluations. In order to run evaluations in Langtrace you must first crete a dataset. 
+Datasets are crucial for evaluations. To run evaluations in Langtrace, you must first create a dataset.
 
 ### 1. Login into Langtrace.ai and create a dataset
 

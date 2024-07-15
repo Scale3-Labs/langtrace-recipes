@@ -1,6 +1,6 @@
 ## Running Evaluations on Langtrace
 
-Langtrace allows you run evaluations on annotated datasets aswell as your own datasets and get insights on the performance of your application.
+Langtrace allows you run evaluations on annotated datasets as well as your own datasets and get insights on the performance of your application.
 
 ### 1. Install LangTrace and Inspect AI
 
