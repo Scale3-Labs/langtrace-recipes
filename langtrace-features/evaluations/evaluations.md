@@ -20,6 +20,7 @@ export LANGTRACE_API_HOST=<your-langtrace-instance-url>
 ```
 
 ### 2. Create a dataset and copy the dataset ID
+**Note **: To learn how to work with datasets on check out our [datasets playbook](../datasets/datasets.md)
 
 If you have not already done so create a dataset and add some data.
 

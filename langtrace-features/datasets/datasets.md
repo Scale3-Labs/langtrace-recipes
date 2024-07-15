@@ -10,10 +10,9 @@ Datasets are crucial for evaluations. To run evaluations in Langtrace, you must 
 
 If you have previosuly captured Traces with Langtrace then go to the annotations tab on Langtrace.ai.
 
-You can then select which traces you woudd like to add to your dataset. Click add to dataset and choose the desired dataset you would like to add to.
+You can then select which traces you would like to add to your dataset. Click the add to dataset button and choose the desired dataset you would like to add to.
 
-
-![dataset](../assets/add_traces.gif)
+![dataset](../assets/add_traces_dataset.gif)
 
 ### 3. Manually add data to your datset
 
@@ -21,5 +20,5 @@ Langtrace allows you to manually input data into your dataset.
 
 Simply head over to your desired dataset. Click create data and fill in the form.
 
-![dataset](../assets/manually_add.gif)
+![dataset](../assets/manually_add_data.gif)
 
