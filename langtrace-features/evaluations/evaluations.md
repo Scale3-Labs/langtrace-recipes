@@ -31,7 +31,29 @@ Copy the dataset ID.
 
 ![dataset](../assets/copy_dataset_id.png)
 
-### 3. Write a simple evaluation script and save it in a file called example_eval.py
+### 3. Add data from captured traces to your dataset
+
+If you have previosuly captured Traces with Langtrace then go to the annotations tab on Langtrace.ai.
+
+You can then select which traces you would like to add to your dataset. Click the add to dataset button and choose the desired dataset you would like to add to.
+
+![dataset](../assets/add_traces_to_dataset.gif)
+
+### 4. Manually add your data
+
+If you have data you would like to evaluate that has not been captured by Langtrace, you can manually input your data.
+
+![dataset](../assets/manually_add_data.gif)
+
+### 4. Annotate your data
+
+Still in the annotations tab. Select your desired trace and annotate it based on factual accuracy and quality. You can also create your own tests to annotate data by clicking the create test button.
+
+Think of annotations as manual evaluations.
+
+![dataset](../assets/annotate_data.gif)
+
+### 5. Write a simple evaluation script and save it in a file called example_eval.py
 
 ```python
 from inspect_ai import Task, task
@@ -53,7 +75,7 @@ def example_eval():
 
 ```
 
-### 4. Run the evaluation script
+### 6. Run the evaluation script
 Note that in order to run the script you will need to export the OPEN AI environment variable. We are using the OPEN AI GPT-4 model for this evaluation but you can use various LLM providers as stated in the [Inspect AI](https://ukgovernmentbeis.github.io/inspect_ai/) docs
 
 ```bash
@@ -63,14 +85,14 @@ Run the script
 ```bash
 inspect eval example_eval.py --model openai/gpt-3.5-turbo --log-dir langtracefs://<datasetId>
 ```
-### 5. Additionally, you can also configure the --log-dir as an environment variable as shown below:
+### 7. Additionally, you can also configure the --log-dir as an environment variable as shown below:
 
 ```bash
 export INSPECT_LOG_DIR=langtracefs://<datasetId>
 ```
 
 
-### 6. If you want to run evaluations on your own datasets, you can set up your evaluation script as shown below:
+### 8. If you want to run evaluations on your own datasets, you can set up your evaluation script as shown below:
 
 ```python 
 from inspect_ai import Task, task
@@ -90,18 +112,18 @@ def example_eval():
     )
 ```
 
-### 7. Run the evaluation script by simply passing langtracefs:// to the --log-dir flag.
+### 9. Run the evaluation script by simply passing langtracefs:// to the --log-dir flag.
 
 ```bash
 inspect eval example_eval.py --model openai/gpt-3.5-turbo --log-dir langtracefs://
 ```
 
-### 8. Go to the Evaluations tab in the Langtrace dashboard to view the evaluation results.
+### 10. Go to the Evaluations tab in the Langtrace dashboard to view the evaluation results.
 ![Evaluation](../assets/evaluations_1.png)
 
 ![Evaluation](../assets/evaluations_2.png)
 
-### 9. Additionally, inspect has a built-in web interface that you can use to view the evaluation results. It works inside VSCode as well as on the browser. You can access the web interface by running the following command:
+### 11. Additionally, inspect has a built-in web interface that you can use to view the evaluation results. It works inside VSCode as well as on the browser. You can access the web interface by running the following command:
 
 ```bash
 inspect view --log-dir langtracefs://<datasetId>
