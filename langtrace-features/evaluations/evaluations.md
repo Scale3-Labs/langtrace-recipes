@@ -23,8 +23,6 @@ export LANGTRACE_API_HOST=<your-langtrace-instance-url>
 
 ### 2. Create a dataset and copy the dataset ID
 
-**Note**: To learn how to work with datasets on check out our [datasets playbook](../datasets/datasets.md)
-
 If you have not already done so create a dataset and add some data.
 
 Copy the dataset ID. 
@@ -39,7 +37,7 @@ You can then select which traces you would like to add to your dataset. Click th
 
 ![dataset](../assets/add_traces_to_dataset.gif)
 
-### 4. Manually add your data
+### 4. Manually input data for evaluations
 
 If you have data you would like to evaluate that has not been captured by Langtrace, you can manually input your data.
 
@@ -47,7 +45,7 @@ If you have data you would like to evaluate that has not been captured by Langtr
 
 ### 4. Annotate your data
 
-Still in the annotations tab. Select your desired trace and annotate it based on factual accuracy and quality. You can also create your own tests to annotate data by clicking the create test button.
+Head over to the annotations tab. Select your desired trace and annotate it based on factual accuracy and quality. You can also create your own tests to annotate data by clicking the create test button.
 
 Think of annotations as manual evaluations.
 
@@ -76,7 +74,7 @@ def example_eval():
 ```
 
 ### 6. Run the evaluation script
-Note that in order to run the script you will need to export the OPEN AI environment variable. We are using the OPEN AI GPT-4 model for this evaluation but you can use various LLM providers as stated in the [Inspect AI](https://ukgovernmentbeis.github.io/inspect_ai/) docs
+Note that in order to run the script you will need to export the OPEN AI environment variable. We are using the OPEN AI GPT-3.5 model for this evaluation but you can use various LLM providers as stated in the [Inspect AI](https://ukgovernmentbeis.github.io/inspect_ai/) docs
 
 ```bash
 export OPENAI_API_KEY=<your_openai_api_key>
@@ -90,7 +88,6 @@ inspect eval example_eval.py --model openai/gpt-3.5-turbo --log-dir langtracefs:
 ```bash
 export INSPECT_LOG_DIR=langtracefs://<datasetId>
 ```
-
 
 ### 8. If you want to run evaluations on your own datasets, you can set up your evaluation script as shown below:
 
