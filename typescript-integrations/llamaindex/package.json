@@ -1,0 +1,16 @@
+{
+  "name": "llamaindex",
+  "version": "1.0.0",
+  "description": "llamaindex typescript integration for langtrace ",
+  "main": "demo.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langtrase/typescript-sdk": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "llamaindex": "^0.5.8"
+  }
+}
