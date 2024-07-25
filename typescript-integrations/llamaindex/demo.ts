@@ -9,9 +9,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 async function main() {
-  // Load essay from abramov.txt in Node
-
-
+ 
   // Read documents from assets folder
   const reader = new SimpleDirectoryReader();
   const documents = await reader.loadData("./assets");

@@ -5,7 +5,7 @@ Langtrace.init({ api_key: "YOUR_LANGTRACE_API_KEY" })
 import Anthropic from '@anthropic-ai/sdk';
 
 const anthropic = new Anthropic({
-  apiKey: "YOUR_ANTHROPIC_API_KEY", // This is the default and can be omitted
+  apiKey: "YOUR_ANTHROPIC_API_KEY", 
 });
 
 async function main() {
