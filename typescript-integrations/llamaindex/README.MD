@@ -22,4 +22,4 @@
 ```sh
    ts-node demo.ts
 ```
-* Your traces should now be exported to Langtrace. Make sure to look through the demo.ts file to for a better understanding
+* Your traces should now be exported to Langtrace. 
