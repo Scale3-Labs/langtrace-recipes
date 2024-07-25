@@ -1,0 +1,16 @@
+{
+  "name": "cohere",
+  "version": "1.0.0",
+  "description": "cohere typescript recipe for langtrace",
+  "main": "demo.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langtrase/typescript-sdk": "^4.1.0",
+    "cohere": "^1.1.1",
+    "cohere-ai": "^7.11.0"
+  }
+}

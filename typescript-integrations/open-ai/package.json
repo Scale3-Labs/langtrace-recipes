@@ -1,0 +1,15 @@
+{
+  "name": "open-ai",
+  "version": "1.0.0",
+  "description": "openai typescript recipe for langtrace",
+  "main": "demo.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langtrase/typescript-sdk": "^4.1.0",
+    "openai": "^4.53.0"
+  }
+}
