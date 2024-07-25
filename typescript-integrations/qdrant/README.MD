@@ -8,7 +8,7 @@
    npm install @qdrant/js-client-rest
 ```
 
-* Replace the placeholders in the demo.ts file with the actual api keys. For example replace LANGTRACE_API_KEY with your actual langtrace api key which you can generate in your langtrace project dashboard. Note that you will need a qdrant api key and qdrant url.
+* Replace the placeholders in the demo.ts file with the actual api keys. For example replace LANGTRACE_API_KEY with your actual langtrace api key which you can generate in your langtrace project dashboard. Note that you will also need a qdrant api key and qdrant url.
 
 * Run ts-node demo.ts in your terminal
 
