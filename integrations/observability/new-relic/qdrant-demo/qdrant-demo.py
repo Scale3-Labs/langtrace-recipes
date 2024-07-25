@@ -10,10 +10,11 @@ from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExport
 # Load environment variables from .env file
 load_dotenv()
 
+# Configure the OTLP exporter to use the correct endpoint and API key
 otlp_endpoint = "https://otlp.nr-data.net"
 otlp_exporter = OTLPSpanExporter(
-    endpoint=otlp_endpoint)
-    # headers=(("Content-Type", "application/json"),))
+    endpoint=otlp_endpoint,
+    headers=(("Content-Type", "application/json"),))
 
 # Initialize environment and clients
 openai_api_key = os.getenv("OPENAI_API_KEY")
