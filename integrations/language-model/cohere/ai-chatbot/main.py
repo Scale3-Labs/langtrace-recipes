@@ -1,6 +1,8 @@
 
 from langtrace_python_sdk import langtrace
 langtrace.init("YOUR_LANGTRACE_API_KEY") #must precede any llm imports
+## ENSURE TO REPLACE THE YOUR_LANGTRACE_API_KEY LITERAL WITH YOUR ACTUAL API KEY WHICH YOU GENEREATED IN LANGTRACE 
+
 
 import sys
 from termcolor import colored, cprint
