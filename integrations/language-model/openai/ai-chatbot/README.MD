@@ -1,3 +1,5 @@
+## Follow these steps to get the ai chatbot up and running:
+
 ### 1. Create a python virtual environment. 
 Lets call our virtual enviornment chatbot but you can name it whatever you like.
 
