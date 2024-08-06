@@ -1,5 +1,7 @@
 ## Follow these steps to get the ai chatbot up and running:
 
+If you would like to learn how to run evaluations with this chatbot on Langtrace check this [article](https://medium.com/langtrace/why-you-need-evaluations-in-your-llm-app-and-how-langtrace-can-help-ba2b40d28307)
+
 ### 1. Create a python virtual environment. 
 Lets call our virtual enviornment chatbot but you can name it whatever you like.
 
