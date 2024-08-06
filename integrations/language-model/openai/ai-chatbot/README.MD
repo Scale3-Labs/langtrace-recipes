@@ -28,7 +28,7 @@ pip install -r requirements.txt
 export LANGTRACE_API_KEY=<your-api-key>
 ```
 
-### 5. Initialize Langtrace in your project. Make sure to replace the YOUR_LANGTRACE_API_KEY placeholder with your actual API key. 
+### 5. Head over to the Main.py file and initialize Langtrace in your project. Make sure to replace the YOUR_LANGTRACE_API_KEY placeholder with your actual API key. 
 ![Langtrace Init](../assets/langtrace_init.png)
 
 ### 6. Run your chatbot 
