@@ -5,8 +5,8 @@ This project demonstrates how to use Langtrace with OpenAI and Qdrant to create 
 ## Prerequisites
 
 - Python 3.x
-- A New Relic account with an API key
-- An OpenAI API key
+- A New Relic [account](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/) with an API key
+- An [OpenAI API](https://platform.openai.com/api-keys) key
 
 ## Setup
 
