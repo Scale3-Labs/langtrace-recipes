@@ -1,5 +1,5 @@
 ## Creating Crew AI crew for meeting prep
-Follow the instructions below to run the crew ai meeting prep agent. The other files needed to run the code are in this directory.
+Follow the instructions below to run the CREW AI meeting prep agent and integrate it with Langtrace
 
 ### 1. Install Langtrace and other requirements in Terminal
 
@@ -22,12 +22,12 @@ export LANGTRACE_API_HOST=<your-langtrace-instance-url>
 ```python
 python3 main.py
 ```
-### 3. Visit Crew Ai Dash in your langtrace dashboard to see details about crew ai events, agents and tasks.
+### 3. Visit Crew AI Dash in your Langtrace dashboard to see details about Crew AI events, agents and tasks.
 
 ![gif](./assets/lgtr.gif)
 
 ### 4. Use the insights from Langtrace to help troublehsoot your application and identify bottlenecks
 
-#### Langtrace allows us to see what tools are tasks as using, if it takes any human input, what errors are being thrown by our Crew AI task and much more
+#### Langtrace allows us to see what tools out CREWAI tasks as using, if it takes any human input, what errors are being thrown by our Crew AI tasks and much more
 
 ![image](./assets/agent.png)
