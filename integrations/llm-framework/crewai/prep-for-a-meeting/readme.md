@@ -24,10 +24,10 @@ python3 main.py
 ```
 ### 3. Visit Crew Ai Dash in your langtrace dashboard to see details about crew ai events, agents and tasks.
 
-![gif](./assets/area.gif)
+![gif](./assets/lgtr.gif)
 
 ### 4. Use the insights from Langtrace to help troublehsoot your application and identify bottlenecks
 
-#### Langtrace allows us to see what tools are tasks as using, if it takes any human input and also what errors if any are being thrown by our Crew AI task.
+#### Langtrace allows us to see what tools are tasks as using, if it takes any human input, what errors are being thrown by our Crew AI task and much more
 
-![image](./assets/task.png)
+![image](./assets/agent.png)
