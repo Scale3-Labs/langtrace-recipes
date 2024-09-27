@@ -1,0 +1,31 @@
+{
+  "name": "vercel-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^0.0.51",
+    "@ai-sdk/openai": "^0.0.36",
+    "@langtrase/typescript-sdk": "file:../../../repos/langtrace-typescript-sdk/langtrase-typescript-sdk-5.4.0.tgz",
+    "@vercel/otel": "^1.9.1",
+    "ai": "^3.3.3",
+    "install": "^0.13.0",
+    "next": "14.2.4",
+    "npm": "^10.8.2",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
+  }
+}
