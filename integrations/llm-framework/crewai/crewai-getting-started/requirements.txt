@@ -1,0 +1,4 @@
+crewai==0.79.4
+crewai-tools==0.14.0
+langtrace-python-sdk==3.3.2
+python-dotenv==1.0.1
