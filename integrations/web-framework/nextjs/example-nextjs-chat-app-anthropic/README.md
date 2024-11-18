@@ -22,8 +22,7 @@ npm install
 This project uses OpenAI so you'll need an OpenAI API key. You'll need to add your Langtrace API key as well ([Sign up](https://langtrace.ai/signup) to Langtrace if you don't have an account). You can also change the model to gtp-4 if your API key has access.
 
 ```bash
-OPENAI_API_KEY=
-OPENAI_MODEL=gpt-3.5-turbo
+ANTHROPIC_API_KEY=
 LANGTRACE_API_KEY=
 ```
 
